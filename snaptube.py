@@ -6,45 +6,21 @@ import os
 import sys
 
 os.system("clear && clear && clear")
-license = """
-MIT License
-
-Copyright (c) 2017-2018 Manisso
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-"""
 logo = '''
-                          ....              ...     ..      ..     
-   .xnnx.  .xx.       .xH888888Hx.        x*8888x.:*8888: -"888:   
- .f``"888X< `888.   .H8888888888888:     X   48888X `8888H  8888   
- 8L   8888X  8888   888*"""?""*88888X   X8x.  8888X  8888X  !888>  
-X88h. `8888  X888k 'f     d8x.   ^%88k  X8888 X8888  88888   "*8%- 
-'8888 '8888  X8888 '>    <88888X   '?8  '*888!X8888> X8888  xH8>   
- `*88>'8888  X8888  `:..:`888888>    8>   `?8 `8888  X888X X888>   
-   `! X888~  X8888         `"*88     X    -^  '888"  X888  8888>   
-  -`  X*"    X8888    .xHHhx.."      !     dx '88~x. !88~  8888>   
-   xH88hx  . X8888   X88888888hx. ..!    .8888Xf.888x:!    X888X.: 
- .*"*88888~  X888X  !   "*888888888"    :""888":~"888"     `888*"  
- `    "8%    X888>         ^"***"`          "~'    "~        ""    
-    .x..     888f \033[0m  \033[91m   \033[1m }--{+} Coded By Manisso {+}--{
-\033[0m   88888    :88f  \033[0m  \033[91m  \033[1m}----{+}  fb.me/dzmanisso {+}----{
-\033[0m   "88*"  .x8*~    \033[0m  \033[91m   \033[1m}--{+} Greetz To IcoDz  {+}--{
+ .d8888b.                         88888888888       888               
+d88P  Y88b                            888           888               
+Y88b.                                 888           888               
+ "Y888b.   88888b.   8888b.  88888b.  888  888  888 88888b.   .d88b.  
+    "Y88b. 888 "88b     "88b 888 "88b 888  888  888 888 "88b d8P  Y8b 
+      "888 888  888 .d888888 888  888 888  888  888 888  888 88888888 
+Y88b  d88P 888  888 888  888 888 d88P 888  Y88b 888 888 d88P Y8b.     
+ "Y8888P"  888  888 "Y888888 88888P"  888   "Y88888 88888P"   "Y8888  
+                             888                                      
+                             888                                      
+                             888                                              
+   \033[0m  \033[91m   \033[1m           }--{+} Coded By Manisso {+}--{
+   \033[0m  \033[91m  \033[1m          }----{+}  fb.me/dzmanisso {+}----{
+   \033[0m  \033[91m    \033[1m          }--{+} Greetz To IcoDz  {+}--{
 '''
 menu = '''\033[0m
     {1}--Video Download
@@ -68,7 +44,7 @@ def quit():
            
 def  select():
   try:
-    choice = input("YDM~# ")
+    choice = input("SnapTub~# ")
     if choice == 1:
       os.system("clear")
       print """
