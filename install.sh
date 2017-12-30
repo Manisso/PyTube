@@ -14,13 +14,13 @@ echo "
                                                 ";
 
 echo "[✔] Checking directories...";
-if [ -d "/usr/share/doc/YDM" ] ;
+if [ -d "/usr/share/doc/SnapTube" ] ;
 then
-echo "[◉] A directory YDM was found! Do you want to replace it? [Y/n]:" ; 
+echo "[◉] A directory SnapTube was found! Do you want to replace it? [Y/n]:" ; 
 read mama
 if [ $mama == "y" ] ; 
 then
- rm -R "/usr/share/doc/YDM"
+ rm -R "/usr/share/doc/SnapTube"
 else
  exit
 fi
@@ -28,21 +28,21 @@ fi
 
  echo "[✔] Installing ...";
  echo "";
- git clone https://github.com/Manisso/YDM.git /usr/share/doc/YDM;
+ git clone https://github.com/Manisso/SnapTube.git /usr/share/doc/SnapTube;
  echo "#!/bin/bash 
- python /usr/share/doc/YDM/ydm.py" '${1+"$@"}' > ydm;
- chmod +x ydm;
- sudo cp ydm /usr/bin/;
- rm ydm;
+ python /usr/share/doc/SnapTube/snaptube.py" '${1+"$@"}' > snaptube;
+ chmod +x snaptube;
+ sudo cp snaptube /usr/bin/;
+ rm snaptube;
 
 
-if [ -d "/usr/share/doc/YDM" ] ;
+if [ -d "/usr/share/doc/SnapTube" ] ;
 then
 echo "";
 echo "[✔]Tool istalled with success![✔]";
 echo "";
   echo "[✔]====================================================================[✔]";
-  echo "[✔]  ✔✔✔   All is done!! You can execute tool by typing ydm  !     ✔✔✔ [✔]"; 
+  echo "[✔] ✔✔✔ All is done!! You can execute tool by typing snaptube  !   ✔✔✔ [✔]"; 
   echo "[✔]====================================================================[✔]";
   echo "";
 else
