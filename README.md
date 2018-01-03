@@ -1,2 +1,1 @@
-# YDM
-Youtube Download Manager
+# SnapTube
