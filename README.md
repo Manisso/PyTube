@@ -8,8 +8,6 @@
 bash <(curl -s https://raw.githubusercontent.com/Manisso/SnapTube/master/install.sh)
 ```
 
-Follow This Video [HackerSploit](https://www.youtube.com/watch?v=t3uYpMrK2EU)
-
 # Contributors
 
 [thehappydinoa](https://github.com/thehappydinoa)
