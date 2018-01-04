@@ -13,7 +13,7 @@ echo "
 
 ";
 
-INSTALL_DIR="/usr/share/doc/fsociety"
+INSTALL_DIR="/usr/share/doc/SnapTube"
 
 echo "[✔] Checking directories...";
 if [ -d "$INSTALL_DIR" ];
