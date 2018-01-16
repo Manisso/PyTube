@@ -13,7 +13,7 @@ echo "
 
 ";
 
-INSTALL_DIR="/usr/share/doc/PyTube"
+sudo INSTALL_DIR="/usr/share/doc/PyTube"
 
 echo "[✔] Checking directories...";
 if [ -d "$INSTALL_DIR" ];
