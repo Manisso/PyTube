@@ -13,7 +13,7 @@ echo "
 
 ";
 
-sudo INSTALL_DIR="/usr/share/doc/PyTube"
+ INSTALL_DIR="/usr/share/doc/PyTube"
 
 echo "[✔] Checking directories...";
 if [ -d "$INSTALL_DIR" ];
@@ -22,7 +22,7 @@ then
     read mama
     if [ $mama == "y" ] ;
     then
-        rm -R "$INSTALL_DIR"
+      sudo rm -R "$INSTALL_DIR"
     else
         exit
     fi
