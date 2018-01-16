@@ -38,7 +38,6 @@ echo "#!/bin/bash
 python $INSTALL_DIR/pytube.py" '${1+"$@"}' > pytube;
 chmod +x pytube;
 sudo cp pytube /usr/bin/;
-rm pytube;
 
 
 if [ -d "$INSTALL_DIR/PyTube" ];
